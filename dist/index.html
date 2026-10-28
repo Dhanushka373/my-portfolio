@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- PERSONALIZE: update name, description, and social preview for your portfolio. -->
+    <title>Alex Morgan — Developer & Designer</title>
+    <meta
+      name="description"
+      content="Alex Morgan is a full-stack developer and UI designer crafting thoughtful digital experiences. Explore selected projects and get in touch."
+    />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta property="og:title" content="Alex Morgan — Developer & Designer" />
+    <meta
+      property="og:description"
+      content="Thoughtful design. Purposeful development. A selection of digital experiences."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=square-gallery-24" />
+    <script src="script.js?v=gallery-html-25" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <svg
+      class="icon-library"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+    >
+      <symbol id="arrow" viewBox="0 0 24 24">
+        <path d="M5 19 19 5M5 5h14v14" />
+      </symbol>
+      <symbol id="github" viewBox="0 0 24 24">
+        <path
+          d="M9 19c-4 1-4-2-6-2m12 5v-4a3.5 3.5 0 0 0-1-3c3-.3 6-1.5 6-6a4.6 4.6 0 0 0-1.3-3.2A4.3 4.3 0 0 0 18.5 2S17.3 1.7 15 3a12 12 0 0 0-6 0C6.7 1.7 5.5 2 5.5 2a4.3 4.3 0 0 0-.2 3.8A4.6 4.6 0 0 0 4 9c0 4.5 3 5.7 6 6a3.5 3.5 0 0 0-1 3v4"
+        />
+      </symbol>
+      <symbol id="linkedin" viewBox="0 0 24 24">
+        <rect x="3" y="8" width="4" height="13" rx="1" />
+        <path d="M11 21V8h4v2c3-4 7-2 7 2v9h-4v-8c0-3-3-2-3 0v8" />
+        <circle cx="5" cy="3" r="2" />
+      </symbol>
+      <symbol id="mail" viewBox="0 0 24 24">
+        <rect x="2" y="4" width="20" height="16" rx="2" />
+        <path d="m2 5 10 8L22 5" />
+      </symbol>
+    </svg>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="header">
+      <nav class="container nav" aria-label="Main navigation">
+        <a href="#home" class="monogram" aria-label="Dhanushka Sahan home"
+          >DHANUSHKA SAHAN <span>.</span></a
+        ><button
+          class="menu-toggle"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span><span></span>
+        </button>
+        <div id="nav-links" class="nav-links">
+          <a class="active" href="#home">Home</a><a href="#about">About</a
+          ><a href="#projects">Projects</a><a href="#skills">Skills</a
+          ><a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="home" class="hero container">
+        <!-- Decorative SVG waves: no images or animation libraries required. -->
+        <div class="hero-waves" aria-hidden="true">
+          <div class="hero-wave-glow"></div>
+          <svg class="hero-wave hero-wave-back" viewBox="0 0 2400 360" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="hero-wave-back-fill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#111111" stop-opacity="0.65" />
+                <stop offset="100%" stop-color="#111111" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path fill="url(#hero-wave-back-fill)" d="M0 140C300 20 300 260 600 140S900 20 1200 140C1500 20 1500 260 1800 140S2100 20 2400 140V360H0Z" />
+          </svg>
+          <svg class="hero-wave hero-wave-middle" viewBox="0 0 2400 360" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="hero-wave-middle-fill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#111111" stop-opacity="0.65" />
+                <stop offset="100%" stop-color="#111111" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path fill="url(#hero-wave-middle-fill)" d="M0 180C300 60 300 300 600 180S900 60 1200 180C1500 60 1500 300 1800 180S2100 60 2400 180V360H0Z" />
+          </svg>
+          <svg class="hero-wave hero-wave-front" viewBox="0 0 2400 360" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="hero-wave-front-fill" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#111111" stop-opacity="0.65" />
+                <stop offset="100%" stop-color="#111111" stop-opacity="0" />
+              </linearGradient>
+            </defs>
+            <path fill="url(#hero-wave-front-fill)" d="M0 220C300 140 300 300 600 220S900 140 1200 220C1500 140 1500 300 1800 220S2100 140 2400 220V360H0Z" />
+          </svg>
+        </div>
+        <!-- PERSONALIZE: replace the portrait URL and alt text with your own profile image. -->
+        <div class="portrait-wrap">
+          <img
+            class="portrait"
+            src="assets/profile-portrait.png?v=2"
+            alt="Black-and-white portrait in a suit and tie"
+            width="176"
+            height="176"
+            fetchpriority="high"
+          /><span class="portrait-mark" aria-hidden="true">✳</span>
+        </div>
+        <div class="availability"><span></span> Available for work</div>
+        <!-- PERSONALIZE: change your name, role, and introduction here. -->
+        <p class="hero-intro">Hello, I’m Dhanushka Sahan.</p>
+        <h1>Thoughtful design.<br /><em>Purposeful development.</em></h1>
+        <p class="role">Web Developer <span>&</span> UI/UX Designer</p>
+        <p class="hero-description">
+          I turn complex ideas into simple, beautiful digital experiences.<br
+            class="desktop-break"
+          />
+          Built with care. Designed to make a difference.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects"
+            >View Projects <span aria-hidden="true">↗</span></a
+          ><a class="button secondary" href="#contact">Contact Me</a>
+          <!-- CV: replace assets/dhanushka-sahan-cv.pdf to update your downloadable resume. -->
+          <a
+            class="button secondary"
+            href="assets/CV.pdf"
+            download="Dhanushka-Sahan-CV.pdf"
+          >
+            Download CV <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+        <!-- PERSONALIZE: replace all GitHub, LinkedIn, and email links throughout the page. -->
+        <div class="socials">
+          <a
+            href="https://github.com/Dhanushka373"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            ><svg viewBox="0 0 24 24" aria-hidden="true" style="fill: #181717; stroke: none"><path d="M12 .75a11.25 11.25 0 0 0-3.56 21.92c.56.1.77-.24.77-.54v-2.1c-3.13.68-3.79-1.33-3.79-1.33-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.63 1.22 3.27.93.1-.73.39-1.22.71-1.5-2.5-.28-5.13-1.25-5.13-5.56 0-1.23.44-2.24 1.16-3.03-.12-.29-.5-1.43.11-2.98 0 0 .95-.3 3.1 1.16a10.8 10.8 0 0 1 5.64 0c2.15-1.46 3.1-1.16 3.1-1.16.61 1.55.23 2.69.11 2.98.72.79 1.16 1.8 1.16 3.03 0 4.32-2.63 5.27-5.14 5.55.4.35.76 1.04.76 2.1v3.09c0 .3.2.65.78.54A11.25 11.25 0 0 0 12 .75Z" /></svg></a
+          ><a
+            href="https://www.linkedin.com/in/dhanushka-sahan/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            ><svg viewBox="0 0 24 24" aria-hidden="true" style="stroke: none"><rect width="24" height="24" rx="2" fill="#0A66C2" /><path fill="#fff" d="M5 9h3v10H5zm1.5-5a1.75 1.75 0 1 1 0 3.5 1.75 1.75 0 0 1 0-3.5ZM10 9h3v1.4c.6-1 1.6-1.7 3-1.7 3.2 0 3.8 2 3.8 4.6V19h-3v-5c0-1.2 0-2.7-1.7-2.7S13 12.6 13 13.9V19h-3Z" /></svg></a
+          ><a
+            href="https://www.behance.net/dhanushkasahan"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Behance"
+            ><svg viewBox="0 0 24 24" aria-hidden="true" style="stroke: none"><rect width="24" height="24" rx="2" fill="#1769FF" /><path fill="#fff" fill-rule="evenodd" d="M3 6h5c2.5 0 3.7 1.2 3.7 3 0 1.2-.6 2-1.5 2.4 1.3.4 2 1.4 2 2.9 0 2.2-1.6 3.7-4.1 3.7H3Zm2.5 2v2.6h2.2c1 0 1.5-.4 1.5-1.3S8.7 8 7.7 8Zm0 4.6V16H8c1.2 0 1.8-.6 1.8-1.7s-.6-1.7-1.8-1.7ZM15 6h5v1.5h-5Zm2.5 3c3 0 4.5 2.2 4.3 5.2h-6.1c.1 1.4.8 2 1.9 2 .8 0 1.4-.4 1.6-1h2.5c-.7 2-2 3-4.2 3-3 0-4.6-1.9-4.6-4.6S14.6 9 17.5 9Zm-1.8 3.5h3.6c-.2-1.1-.8-1.6-1.8-1.6s-1.6.5-1.8 1.6Z" /></svg></a
+          ><a
+              href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=dhanushkasahan550%40gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Compose an email in Gmail (opens in a new tab)"
+            ><svg viewBox="0 0 24 24" aria-hidden="true" style="stroke: none"><path fill="#4285F4" d="M2 5h3v15H2a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z" /><path fill="#34A853" d="M19 5h3a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-3Z" /><path fill="#EA4335" d="m5 5 7 5.25L19 5v5l-7 5.25L5 10Z" /><path fill="#C5221F" d="M0 7V5a2 2 0 0 1 3.2-1.6L5 4.75V10Z" /><path fill="#FBBC04" d="M19 4.75l1.8-1.35A2 2 0 0 1 24 5v2l-5 3Z" /></svg
+          ></a>
+        </div>
+        <a class="scroll-cue" href="#about"
+          >SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a
+        >
+        <button class="wave-toggle" type="button" aria-label="Pause background animation" aria-pressed="false" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6v12M15 6v12" /></svg>
+        </button>
+      </section>
+      <section id="about" class="section alternate">
+        <div class="container about-layout">
+          <div class="reveal">
+            <p class="eyebrow">A LITTLE ABOUT ME</p>
+            <h2>Good work starts<br />with <em>curiosity.</em></h2>
+            <span class="small-note"
+              >A developer’s logic. A designer’s eye.</span
+            >
+          </div>
+          <div class="reveal">
+            <p class="lead">
+              I’m a Business Information Systems undergraduate at the University of Sri Jayewardenepura, pursuing a BSc (Hons) in Business Information Systems (Special)
+            </p>
+            <p>
+              With an interest in UI/UX design, business analysis, and technology, I enjoy understanding user needs, exploring ideas, and turning complex problems into simple, intuitive solutions. I believe great digital products are built where creativity, usability, and purpose come together. <br><br>
+
+              I’m always curious to learn, experiment with new ideas, and grow as a designer and technology professional.
+            </p>
+            
+            <a class="text-link" href="#contact"
+              >Let’s get to know each other <span>↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">02 / SELECTED WORK</p>
+              <h2>A few things I’ve <em>made.</em></h2>
+            </div>
+            <p>Ideas made tangible.<br />Every detail, considered.</p>
+          </div>
+          <!-- PROJECT LINKS: replace thumbnail and preview href values with your live project URLs. -->
+          <div class="projects-grid">
+            <article class="project-card reveal">
+              <a
+                class="project-image image-one project-thumbnail"
+                href="https://www.figma.com/design/IFVTTFlhD7OhzxK1A6JiPW/AURA?node-id=0-1&t=7bthr9fP2vSUq1h6-1"
+                 target="_blank" rel="noopener noreferrer">
+                  <img
+                    class="project-thumbnail-image"
+                    src="assets/AURA%20Yoga%20%26%20Wellness%20App.png"
+                    alt="AURA Yoga and Wellness app interface displayed on two phones"
+                    width="1672"
+                    height="941"
+                    loading="lazy"
+                  />
+                  <span class="project-open" aria-hidden="true">↗</span>
+                </a>
+              <div class="project-meta">
+                <span>UI/UX DESIGN & PROTOTYPING</span><span>2024</span>
+              </div>
+              <h3>AURA – Yoga & Wellness Mobile App | UI/UX Design </h3>
+              <p>
+                Designed AURA, a yoga and wellness mobile app for the DHACK Inter-University Competition at the University of Sri Jayewardenepura. Responsible for UI design, user experience design, and developing an interactive prototype to create an intuitive and engaging user experience.
+              </p>
+              <div class="tags">
+                <span>UI Design</span><span>UX Design</span><span>Prototyping</span><span>Figma</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.figma.com/design/IFVTTFlhD7OhzxK1A6JiPW/AURA?node-id=0-1&t=7bthr9fP2vSUq1h6-1"
+                   target="_blank" rel="noopener noreferrer">Live preview ↗</a
+                ><a href="https://www.figma.com/design/IFVTTFlhD7OhzxK1A6JiPW/AURA?node-id=0-1&t=7bthr9fP2vSUq1h6-1"
+                   target="_blank" rel="noopener noreferrer">Code <svg><use href="#github" /></svg
+                ></a>
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a
+                class="project-image image-two project-thumbnail"
+                href="assets/WorkPulse%20collaborative%20task%20management.png"
+                 target="_blank" rel="noopener noreferrer">
+                  <!-- METRIC THUMBNAIL: change src below to your project image. -->
+                  <img
+                    class="project-thumbnail-image"
+                    src="assets/WorkPulse%20collaborative%20task%20management.png"
+                    alt="Metric analytics dashboard with revenue and active user statistics"
+                    width="1672"
+                    height="941"
+                    loading="lazy"
+                  />
+                  <span class="project-open" aria-hidden="true">↗</span>
+                </a>
+              <div class="project-meta">
+                <span>UI/UX DESIGN & PROTOTYPING</span><span>2026</span>
+              </div>
+              <h3>WorkPulse – Collaborative Task Management App | UI/UX Design.</h3>
+              <p>
+                Designed WorkPulse, a collaborative task management app focused on solving real-world challenges people face when organizing daily tasks and collaborating with others. Created low-fidelity wireframes and high-fidelity interactive prototypes to develop an intuitive and user-friendly experience.
+              </p>
+              <div class="tags">
+                <span>UI Design</span><span>UX Design</span><span>Prototyping</span><span>Figma</span>
+              </div>
+              <div class="project-links">
+                <a href="https://www.figma.com/design/1WxBWJsEooEuTbglSLQ6Pl/WorkPulse---High-Fidelity-Prototype?node-id=137-2&t=8PDGGuLW762k20jR-1"
+                   target="_blank" rel="noopener noreferrer">View design ↗</a
+                >
+              </div>
+            </article>
+            <article class="project-card reveal">
+              <a
+                class="project-image image-three project-thumbnail"
+                href="assets/Go-Park%20parking%20reservation%20dashboard.png"
+                 target="_blank" rel="noopener noreferrer">
+                  <img
+                    class="project-thumbnail-image"
+                    src="assets/Go-Park%20parking%20reservation%20dashboard.png"
+                    alt="WorkPulse collaborative task management project preview"
+                    width="1672"
+                    height="941"
+                    loading="lazy"
+                  />
+                  <span class="project-open" aria-hidden="true">↗</span>
+                </a>
+              <div class="project-meta">
+                <span>DESIGN & DEVELOPMENT</span><span>2025</span>
+              </div>
+              <h3>Go-Park – Web-Based Car Parking Reservation System</h3>
+              <p>
+                Developed Go-Park, a web-based car parking reservation system that enables users to find parking spaces and manage reservations efficiently. Contributed to front-end and back-end development, database management, and the implementation of core booking functionalities using PHP and MySQL.
+              </p>
+              <div class="tags">
+                <span>HTML & CSS</span><span>JavaScript</span><span>PHP & MySQL</span><span>Database Management</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Department-of-IT-FMSC-USJ/group-project-group14.git"
+                   target="_blank" rel="noopener noreferrer">View Code ↗</a
+                >
+              </div>
+            </article>
+            <!-- PROJECT 4: replace the image, title, description, and technology tags.
+                 Replace the preview href with your live project URL. Add a Code link when ready. -->
+            <article class="project-card reveal">
+              <a
+                class="project-image project-thumbnail"
+                href="assets/TeaGo_%20tea%20plantation%20ERP%20dashboard.png"
+               target="_blank" rel="noopener noreferrer">
+                <img
+                  class="project-thumbnail-image"
+                  src="assets/TeaGo_%20tea%20plantation%20ERP%20dashboard.png"
+                  alt="Placeholder for your next project thumbnail"
+                  width="1672"
+                  height="941"
+                  loading="lazy"
+                />
+                <span class="project-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-meta">
+                <span>QUALITY ASSURANCE & SOFTWARE TESTING</span><span>2026</span>
+              </div>
+              <h3>TeaGo – Agri-Tech Enterprise Resource Planning (ERP) Platform</h3>
+              <p>
+                Contributed to quality assurance for TeaGo, an Agri-Tech ERP platform designed to support tea delivery logging and billing automation. Performed functional and performance testing to evaluate system reliability, verify functionality, and support data integrity within an Agile development environment.
+              </p>
+              <div class="tags">
+                <span>Functional Testing</span><span>Performance Testing</span><span>Quality Assurance</span>
+              </div>
+              
+            </article>
+            <!-- SOCIAL GRAPHICS: replace the thumbnail src and both href values
+                 with your artwork image and portfolio / gallery URL. -->
+            <article class="project-card reveal">
+              <a
+                class="project-image project-thumbnail"
+                href="#artwork-gallery" aria-haspopup="dialog" aria-controls="artwork-gallery" data-open-artwork
+              >
+                <img
+                  class="project-thumbnail-image"
+                  src="/assets/Premium White Event Design Showcase (1).png"
+                  alt="Event and promotional graphic design showcase"
+                  width="1672"
+                  height="941"
+                  loading="lazy"
+                />
+                <span class="project-open" aria-hidden="true">↗</span>
+              </a>
+              <div class="project-meta">
+                <span>GRAPHIC DESIGN</span><span>SELECTED WORK</span>
+              </div>
+              <h3>Event & Promotional Designs</h3>
+              <p>
+                A collection of university event posters, promotional graphics, and social media designs created for student activities and campus events. Each design focuses on clear communication, engaging visuals, and a consistent visual style to connect with the university community.
+              </p>
+              <div class="tags">
+                <span>Social Media Design</span><span>Visual Content</span><span>Graphic Design</span>
+              </div>
+              <div class="project-links">
+                <a href="#artwork-gallery" aria-haspopup="dialog" aria-controls="artwork-gallery" data-open-artwork>
+                  View artwork ↗
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+<section id="skills" class="product-skills" aria-labelledby="product-skills-title">
+  <style>
+    /* THEME: change --ps-accent and --ps-tint together to update the accent. */
+    .product-skills {
+      --ps-accent: #2f54eb;
+      --ps-tint: #eaefff;
+      --ps-background: #f5f5f5;
+      --ps-surface: #ffffff;
+      --ps-border: #e5e8f0;
+      --ps-heading: #111827;
+      --ps-body: #5b6475;
+      padding: 96px 24px;
+      background: var(--ps-background);
+      color: var(--ps-heading);
+      font-family: "Manrope", Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.7;
+      scroll-margin-top: 80px;
+    }
+
+    .product-skills *,
+    .product-skills *::before,
+    .product-skills *::after { box-sizing: border-box; }
+
+    .product-skills .ps-container { max-width: 1100px; margin-inline: auto; }
+    .product-skills .ps-header { max-width: 780px; margin-bottom: 48px; }
+    .product-skills h2 {
+      font-family: inherit;
+      font-size: clamp(30px, 4.2vw, 48px);
+      font-weight: 800;
+      line-height: 1.18;
+      letter-spacing: -1.8px;
+      margin: 0 0 20px;
+      color: var(--ps-heading);
+      text-wrap: balance;
+    }
+    .product-skills .ps-subtext {
+      margin: 0;
+      font-size: 15px;
+      color: var(--ps-body);
+      line-height: 1.8;
+    }
+    .product-skills .ps-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+    }
+    .product-skills .ps-card {
+      min-width: 0;
+      padding: 32px;
+      border: 1px solid var(--ps-border);
+      border-radius: 20px;
+      background: var(--ps-surface);
+      box-shadow: 0 2px 4px rgba(15, 23, 42, 0.015), 0 4px 24px rgba(15, 23, 42, 0.035);
+      transition: transform 0.25s ease-out, border-color 0.25s ease-out, box-shadow 0.25s ease-out;
+    }
+    .product-skills .ps-card-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+    }
+    .product-skills .ps-icon {
+      display: grid;
+      place-items: center;
+      width: 48px;
+      height: 48px;
+      border-radius: 14px;
+      background: var(--ps-tint);
+      color: var(--ps-accent);
+    }
+    .product-skills .ps-icon svg {
+      width: 23px;
+      height: 23px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.6;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .product-skills .ps-number {
+      color: var(--ps-body);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-variant-numeric: tabular-nums;
+    }
+    .product-skills h3 {
+      margin: 0 0 8px;
+      font-family: inherit;
+      font-size: clamp(19px, 2.3vw, 23px);
+      font-weight: 800;
+      line-height: 1.4;
+      letter-spacing: -0.6px;
+      color: var(--ps-heading);
+    }
+    .product-skills .ps-description {
+      margin: 0 0 24px;
+      color: var(--ps-body);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+    .product-skills .ps-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .product-skills .ps-chip {
+      padding: 7px 13px;
+      border: 1px solid var(--ps-border);
+      border-radius: 999px;
+      background: #ffffff;
+      color: var(--ps-body);
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 1.6;
+      transition: color 0.2s ease-out, border-color 0.2s ease-out, background 0.2s ease-out;
+    }
+    .product-skills :focus-visible {
+      outline: 2px solid var(--ps-accent);
+      outline-offset: 5px;
+    }
+    /* Card entrances are controlled by the shared scroll observer. */
+    @media (hover: hover) {
+      .product-skills .ps-card:hover {
+        transform: translateY(-4px);
+        border-color: var(--ps-accent);
+        box-shadow: 0 4px 8px rgba(15, 23, 42, 0.025), 0 16px 32px rgba(15, 23, 42, 0.07);
+      }
+      .product-skills .ps-chip:hover {
+        background: var(--ps-tint);
+        color: var(--ps-accent);
+        border-color: var(--ps-tint);
+      }
+    }
+    @media (max-width: 767px) {
+      .product-skills { padding-block: 64px; }
+      .product-skills .ps-grid { grid-template-columns: 1fr; gap: 16px; }
+      .product-skills .ps-header { margin-bottom: 32px; }
+    }
+    @media (max-width: 639px) {
+      .product-skills { padding-inline: 20px; }
+      .product-skills .ps-card { padding: 24px; }
+      .product-skills h2 { letter-spacing: -1.1px; }
+      .product-skills .ps-subtext { font-size: 14px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .product-skills *, .product-skills *::before, .product-skills *::after {
+        animation: none !important;
+        transition: none !important;
+      }
+      .product-skills .ps-card:hover { transform: none; }
+    }
+  </style>
+
+  <div class="ps-container">
+    <header class="ps-header">
+      <h2 id="product-skills-title">Skills that take a product from idea to release</h2>
+      <p class="ps-subtext">I design user experiences, build digital solutions, test functionality, and understand the business processes behind them.</p>
+    </header>
+    <div class="ps-grid" data-product-skills></div>
+    <noscript>
+      <p>UI/UX Design: Figma, Wireframing, Prototyping, User Flows, UI Design, UX Research.</p>
+      <p>Web Development: HTML, CSS, JavaScript, PHP, MySQL, Git &amp; GitHub.</p>
+      <p>Quality Assurance: Functional Testing, Performance Testing, Test Case Design, Postman, Apache JMeter.</p>
+      <p>ERP &amp; Business Analysis: SAP S/4HANA, Odoo, Requirements Gathering, Business Process Mapping, Systems Analysis.</p>
+    </noscript>
+  </div>
+
+  <script>
+    (() => {
+      "use strict";
+      const section = document.currentScript.closest(".product-skills");
+
+      // EDIT SKILLS HERE. Add or remove strings in skills; duplicate an object
+      // to create another category. Numbering and animation delays update automatically.
+      const categories = [
+        {
+          title: "UI/UX Design",
+          description: "User-centered design and prototyping",
+          icon: "design",
+          skills: ["Figma", "Wireframing", "Prototyping", "User Flows", "UI Design", "UX Research"]
+        },
+        {
+          title: "Web Development",
+          description: "Front-end, back-end and databases",
+          icon: "development",
+          skills: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Git & GitHub"]
+        },
+        {
+          title: "Quality Assurance",
+          description: "Software testing and quality validation",
+          icon: "testing",
+          skills: ["Functional Testing", "Performance Testing", "Test Case Design", "Postman", "Apache JMeter"]
+        },
+        {
+          title: "ERP & Business Analysis",
+          description: "Enterprise systems and business processes",
+          icon: "business",
+          skills: ["SAP S/4HANA", "Odoo", "Requirements Gathering", "Business Process Mapping", "Systems Analysis"]
+        }
+      ];
+
+      // All artwork is inline SVG. No external images or icon libraries.
+      const icons = {
+        design: '<path d="m15 3 6 6-12 12H3v-6L15 3Zm-3 3 6 6M3 15l6 6"/><path d="M4 5h4M6 3v4"/>',
+        development: '<path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-12-2 18"/>',
+        testing: '<path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><path d="m8 12 3 3 5-6"/>',
+        business: '<rect x="8" y="2" width="8" height="6" rx="1.5"/><rect x="2" y="16" width="7" height="6" rx="1.5"/><rect x="15" y="16" width="7" height="6" rx="1.5"/><path d="M12 8v4M5.5 16v-4h13v4"/>'
+      };
+
+      const grid = section.querySelector("[data-product-skills]");
+      categories.forEach((category, index) => {
+        const card = document.createElement("article");
+        card.className = "ps-card";
+        // Only trusted, locally defined SVG markup is inserted as HTML.
+        card.innerHTML = `<div class="ps-card-content" style="--ps-delay:${index * 65}ms"><div class="ps-card-top"><span class="ps-icon" aria-hidden="true"><svg viewBox="0 0 24 24">${icons[category.icon] || icons.development}</svg></span><span class="ps-number" aria-hidden="true">${String(index + 1).padStart(2, "0")}</span></div><h3></h3><p class="ps-description"></p><ul class="ps-chips"></ul></div>`;
+        // Editable content is assigned as text, never interpreted as HTML.
+        card.querySelector("h3").textContent = category.title;
+        card.querySelector(".ps-description").textContent = category.description;
+        const chips = card.querySelector("ul");
+        chips.setAttribute("aria-label", `${category.title} skills`);
+        category.skills.forEach((skill) => {
+          const chip = document.createElement("li");
+          chip.className = "ps-chip";
+          chip.textContent = skill;
+          chips.append(chip);
+        });
+        grid.append(card);
+      });
+    })();
+  </script>
+</section>
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="contact-heading reveal">
+            <p class="eyebrow">04 / LET’S CONNECT</p>
+            <h2>Have something <em>in mind?</em></h2>
+            <p>
+              I’d love to hear about it. Let’s make something meaningful
+              together.
+            </p>
+          </div>
+          <div class="contact-layout">
+            <div class="contact-info reveal">
+              <h3>A good conversation<br />is where it all begins.</h3>
+              <p>
+                Have a project, an opportunity, or just<br />a hello? My inbox
+                is always open.
+              </p>
+              <!-- PERSONALIZE: replace these contact details. -->
+              <div class="contact-item">
+                <span>EMAIL</span
+                ><a href="mailto:dhanushkasahan550@gmail.com">dhanushkasahan550@gmail.com ↗</a>
+              </div>
+              <div class="contact-item">
+                <span>PHONE</span
+                ><a href="tel:+94769175824">+94 (0) 76 917 5824</a>
+              </div>
+              <div class="contact-item">
+                <span>LOCATION</span>
+                <p>Gangodawila, Nugegoda</p>
+              </div>
+              <div class="socials">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="GitHub"
+                  ><svg><use href="#github" /></svg></a
+                ><a
+                  href="https://linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn"
+                  ><svg><use href="#linkedin" /></svg></a
+                ><a href="mailto:hello@example.com" aria-label="Email"
+                  ><svg><use href="#mail" /></svg
+                ></a>
+              </div>
+            </div>
+            <form id="contact-form" class="contact-form reveal">
+              <div class="form-row">
+                <div>
+                  <label for="name">Your name</label
+                  ><input
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    autocomplete="name"
+                    required
+                    maxlength="100"
+                  />
+                </div>
+                <div>
+                  <label for="email">Email address</label
+                  ><input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    autocomplete="email"
+                    required
+                    maxlength="254"
+                  />
+                </div>
+              </div>
+              <label for="message">A little about your idea</label
+              ><textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me what you’re thinking…"
+                required
+                maxlength="5000"
+              ></textarea
+              ><button class="button primary" type="submit">
+                Send Message <span aria-hidden="true">↗</span>
+              </button>
+              <p class="form-note">
+                Opens your email app with your message ready to send.
+              </p>
+              <p id="form-status" class="form-status" role="status"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-inner">
+        <a href="#home" class="monogram" aria-label="Back to top"
+          >DHANUSHKA SAHAN<span>.</span></a
+        >
+        <p>© <span id="year">2026</span> Dhanushka Sahan. Designed & built with care.</p>
+        <div>
+          <a
+            href="https://github.com/Dhanushka373"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub ↗</a
+          ><a
+            href="https://www.linkedin.com/in/dhanushka-sahan/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn ↗</a
+          ><a href="#home">Back to top ↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==========================================================
+         POPUP GALLERY IMAGES ONLY — these are the 7 posts shown
+         AFTER clicking the main project thumbnail or View artwork.
+         Change each img src below. The main card image is separate.
+         ========================================================== -->
+    <dialog id="artwork-gallery" class="artwork-gallery" aria-labelledby="artwork-gallery-title">
+      <header class="artwork-gallery-header">
+        <div>
+          <p class="eyebrow">GRAPHIC DESIGN / SELECTED WORK</p>
+          <h2 id="artwork-gallery-title">Event &amp; Promotional Designs</h2>
+        </div>
+        <button class="artwork-close" type="button" aria-label="Close artwork gallery" autofocus>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" /></svg>
+        </button>
+      </header>
+      <div class="artwork-grid" id="artwork-posts">
+        <!-- EDIT IMAGES HERE: type assets/ inside src, then use your editor's file suggestions.
+             If suggestions do not appear, press Ctrl+Space or type the filename manually. -->
+        <!-- POST 01: replace only src with your image path. -->
+        <figure class="artwork-post">
+          <a class="artwork-post-image" target="_blank" rel="noopener noreferrer" aria-label="Open Midnight Sessions — sample at full size">
+            <img
+              id="popup-post-1"
+              src="/university/2.jpg"
+              alt="Sample Midnight Sessions promotional poster"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>Midnight Sessions — sample</figcaption>
+        </figure>
+        <!-- POST 02: replace only src with your image path. -->
+        <figure class="artwork-post">
+          <a class="artwork-post-image" target="_blank" rel="noopener noreferrer" aria-label="Open Design Forward — sample at full size">
+            <img
+              id="popup-post-2"
+              src="/university/3.jpg"
+              alt="Sample Design Forward promotional poster"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>Design Forward — sample</figcaption>
+        </figure>
+        <!-- POST 03: replace only src with your image path. -->
+        <figure class="artwork-post">
+          <a class="artwork-post-image" target="_blank" rel="noopener noreferrer" aria-label="Open The Weekend Edit — sample at full size">
+            <img
+              id="popup-post-3"
+              src="/university/4.jpg"
+              alt="Sample The Weekend Edit promotional poster"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>The Weekend Edit — sample</figcaption>
+        </figure>
+        <!-- POST 04: replace only src with your image path. -->
+        <figure class="artwork-post">
+          <a class="artwork-post-image" target="_blank" rel="noopener noreferrer" aria-label="Open Make Your Mark — sample at full size">
+            <img
+              id="popup-post-4"
+              src="/university/5.jpg"
+              alt="Sample Make Your Mark promotional poster"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>Make Your Mark — sample</figcaption>
+        </figure>
+        <!-- POST 05: replace only src with your image path. -->
+        <figure class="artwork-post">
+          <a class="artwork-post-image" target="_blank" rel="noopener noreferrer" aria-label="Open Summer Social — sample at full size">
+            <img
+              id="popup-post-5"
+              src="/university/6.jpg"
+              alt="Sample Summer Social promotional poster"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>Summer Social — sample</figcaption>
+        </figure>
+        <!-- POST 06: replace only src with your image path. -->
+        <figure class="artwork-post">
+          <a class="artwork-post-image" target="_blank" rel="noopener noreferrer" aria-label="Open Beyond The Brief — sample at full size">
+            <img
+              id="popup-post-6"
+              src="/university/7.jpg"
+              alt="Sample Beyond The Brief promotional poster"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>Beyond The Brief — sample</figcaption>
+        </figure>
+        <!-- POST 07: replace only src with your image path. -->
+        <figure class="artwork-post">
+          <a class="artwork-post-image" target="_blank" rel="noopener noreferrer" aria-label="Open Next Chapter — sample at full size">
+            <img
+              id="popup-post-7"
+              src="/university/8.jpg"
+              alt="Sample Next Chapter promotional poster"
+              loading="lazy"
+            />
+          </a>
+          <figcaption>Next Chapter — sample</figcaption>
+        </figure>
+      </div>
+    </dialog>
+  </body>
+</html>
